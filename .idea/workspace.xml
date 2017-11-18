@@ -2,10 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="28be2089-3929-406d-8a23-b75659082825" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/5.排序和搜索/README.md___jb_old___" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/2.算法分析/README.md" afterPath="$PROJECT_DIR$/2.算法分析/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/3.基本数据结构/README.md" afterPath="$PROJECT_DIR$/3.基本数据结构/README.md" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/4.递归/README.md" afterPath="$PROJECT_DIR$/4.递归/README.md" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/6.树和树的算法/README.md" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/5.排序和搜索/README.md" afterPath="$PROJECT_DIR$/5.排序和搜索/README.md" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -36,7 +34,7 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/2.算法分析/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
@@ -49,12 +47,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="希尔排序.py" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/5.排序和搜索/希尔排序.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="324">
-              <caret line="37" column="0" lean-forward="false" selection-start-line="37" selection-start-column="0" selection-end-line="37" selection-end-column="44" />
-              <folding />
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/6.树和树的算法/README.md">
+          <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+            <state split_layout="SPLIT">
+              <first_editor relative-caret-position="225">
+                <caret line="9" column="85" lean-forward="false" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+                <folding />
+              </first_editor>
+              <second_editor />
             </state>
           </provider>
         </entry>
@@ -92,12 +93,12 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="README.md" pinned="false" current-in-tab="false">
+      <file leaf-file-name="README.md" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/5.排序和搜索/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="525">
-                <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
+              <first_editor relative-caret-position="500">
+                <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
                 <folding />
               </first_editor>
               <second_editor />
@@ -188,9 +189,10 @@
         <option value="$PROJECT_DIR$/5.排序和搜索/快速排序.py" />
         <option value="$PROJECT_DIR$/5.排序和搜索/test.py" />
         <option value="$PROJECT_DIR$/4.递归/README.md" />
-        <option value="$PROJECT_DIR$/5.排序和搜索/README.md" />
         <option value="$PROJECT_DIR$/3.基本数据结构/README.md" />
         <option value="$PROJECT_DIR$/2.算法分析/README.md" />
+        <option value="$PROJECT_DIR$/6.树和树的算法/README.md" />
+        <option value="$PROJECT_DIR$/5.排序和搜索/README.md" />
       </list>
     </option>
   </component>
@@ -233,45 +235,6 @@
             <path>
               <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
               <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="2.算法分析" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="3.基本数据结构" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="3.基本数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="Deque" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="3.基本数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="列表" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="3.基本数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="栈" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="3.基本数据结构" type="462c0819:PsiDirectoryNode" />
-              <item name="队列" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
-              <item name="4.递归" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="python-data-structure" type="b2602c69:ProjectViewProjectNode" />
-              <item name="python-data-structure" type="462c0819:PsiDirectoryNode" />
               <item name="5.排序和搜索" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -287,6 +250,7 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\mygit\python-data-structure\6.树和树的算法" />
       <recent name="E:\mygit\python-data-structure\5.排序和搜索" />
       <recent name="E:\mygit\python-data-structure\递归" />
     </key>
@@ -869,17 +833,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/5.排序和搜索/README.md">
-      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
-        <state split_layout="SPLIT">
-          <first_editor relative-caret-position="525">
-            <caret line="21" column="0" lean-forward="true" selection-start-line="21" selection-start-column="0" selection-end-line="21" selection-end-column="0" />
-            <folding />
-          </first_editor>
-          <second_editor />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/4.递归/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
@@ -907,6 +860,28 @@
         <state split_layout="SPLIT">
           <first_editor relative-caret-position="300">
             <caret line="12" column="0" lean-forward="true" selection-start-line="12" selection-start-column="0" selection-end-line="12" selection-end-column="0" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/6.树和树的算法/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="225">
+            <caret line="9" column="85" lean-forward="false" selection-start-line="9" selection-start-column="85" selection-end-line="9" selection-end-column="85" />
+            <folding />
+          </first_editor>
+          <second_editor />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/5.排序和搜索/README.md">
+      <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
+        <state split_layout="SPLIT">
+          <first_editor relative-caret-position="500">
+            <caret line="20" column="2" lean-forward="true" selection-start-line="20" selection-start-column="2" selection-end-line="20" selection-end-column="2" />
             <folding />
           </first_editor>
           <second_editor />
