@@ -138,4 +138,6 @@ dmypy.json
 # Cython debug symbols
 cython_debug/
 
+# local
 .idea
+python-data-structure-cn.pdf
