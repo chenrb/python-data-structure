@@ -12,18 +12,21 @@ __author__ = 'John 2017/11/11 15:51'
 大O表示法允许根据问题的大小，通过其主要部分来对算法进行分类。
 
 """
+from utils import time_decorator
 
 
+@time_decorator
 def anagram_solution(s1, s2):
-    c1 = [0]*26
-    c2 = [0]*26
+    c1, c2 = [0] * 26, [0] * 26
+
+    base = ord('a')
 
     for i in range(len(s1)):
-        pos = ord(s1[i]) - ord('a')
+        pos = ord(s1[i]) - base
         c1[pos] = c1[pos] + 1
 
     for i in range(len(s2)):
-        pos = ord(s2[i]) - ord('a')
+        pos = ord(s2[i]) - base
         c2[pos] = c2[pos] + 1
 
     j = 0
@@ -38,3 +41,13 @@ def anagram_solution(s1, s2):
 
 
 print(anagram_solution('apple', 'pplea'))
+
+
+class Single(object):
+    instance = {}
+
+    def __new__(cls, *args, **kwargs):
+        if not Single.instance:
+            inst = super().__new__(cls, *args, **kwargs)
+            Single.instance[inst] = inst
+        return Single.instance[inst]

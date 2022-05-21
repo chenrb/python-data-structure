@@ -20,7 +20,7 @@ __author__ = 'John 2017/11/11 23:04'
 被放置在它的顶部。
 """
 
-from pythonds.basic.stack import Stack
+from base import Stack
 
 
 def infix_to_postfix(infixexpr):
@@ -50,18 +50,17 @@ def infix_to_postfix(infixexpr):
                 postfixlist.append(toptoken)
                 toptoken = opstack.pop()
         else:
-            while (not opstack.isEmpty()) and (prec[opstack.peek()] >= prec[token]):
+            while (not opstack.is_empty()) and (prec[opstack.peek()] >= prec[token]):
                 postfixlist.append(opstack.pop())
             opstack.push(token)
 
-    while not opstack.isEmpty():
+    while not opstack.is_empty():
         postfixlist.append(opstack.pop())
     return ''.join(postfixlist)
 
 
 # print(infix_to_postfix('A * B + C * D'))
 print(infix_to_postfix("( A + B ) * C - ( D - E ) * ( F + G )"))
-
 
 """
 后辍表达式计算

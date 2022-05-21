@@ -1,7 +1,7 @@
 # -*- coding:utf-8 -*- 
 __author__ = 'John 2017/11/13 10:13'
 
-from pythonds.basic.deque import Deque
+from base.deque import Deque
 
 
 def pal_checker(astring):
@@ -9,13 +9,13 @@ def pal_checker(astring):
     chardeque = Deque()
 
     for ch in astring:
-        chardeque.addRear(ch)
+        chardeque.add_rear(ch)
 
     stillequal = True
 
     while chardeque.size() > 1 and stillequal:
-        first = chardeque.removeFront()
-        last = chardeque.removeRear()
+        first = chardeque.remove_front()
+        last = chardeque.remove_rear()
         if first != last:
             stillequal = False
 

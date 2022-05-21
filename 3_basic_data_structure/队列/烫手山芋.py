@@ -31,4 +31,4 @@ def hot_potato(namelist, num):
     return simqueue.dequeue()
 
 
-print(hot_potato(["Bill", "David", "Susan", "Jane", "Kent", "Brad"], 7))
+print(hot_potato(["Bill", "David", "Susan", "Jane", "Kent", "Brad"], 2))

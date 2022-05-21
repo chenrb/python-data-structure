@@ -15,7 +15,7 @@ __author__ = 'John 2017/11/12 22:30'
 3. 模拟完成后，从生成的等待时间列表中计算平均等待时间。
 """
 import random
-from pythonds.basic.queue import Queue
+from base.queue import Queue
 
 
 class Printer:
@@ -70,7 +70,7 @@ def simulation(numSeconds, pagesPerMinute):
             task = Task(currentSecond)
             printQueue.enqueue(task)
 
-        if (not labprinter.busy()) and (not printQueue.isEmpty()):
+        if (not labprinter.busy()) and (not printQueue.is_empty()):
             nexttask = printQueue.dequeue()
             waitingtimes.append(nexttask.wait_time(currentSecond))
             labprinter.start_next(nexttask)
